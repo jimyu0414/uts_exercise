@@ -1,0 +1,18 @@
+.svg-sprite{
+    width: 0;
+    height: 0;
+    position: absolute;
+    visibility: hidden;
+}
+.icon{
+    &--uts-logo{
+        width: 15rem;
+        height: auto;
+    }
+    &--phone-white{
+        background: #000;
+        width: 1.5rem;
+        height: auto;
+        padding: .5rem .625rem;
+    }
+}

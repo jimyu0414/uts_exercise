@@ -1,0 +1,28 @@
+.header{
+    background: #fff;
+    .container{
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__contact{
+       display: flex;
+       &--phone{
+        display: flex;
+        align-items: center;
+        margin-right: 1rem;
+        border: 1px solid #000;
+       }
+       &--phone span{
+           padding: 0 .5rem;;
+       }
+       &--inquiry{
+        background: #0f4beb;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 2rem;
+        cursor: pointer;
+       } 
+    }
+}
