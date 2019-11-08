@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="15px" viewBox="0 0 20 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>icon-youtube-white</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="19.99 7.048 19.99 14.078 0 14.078 0 0.019 19.99 0.019"></polygon>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="footer/mobile" transform="translate(-139.000000, -1144.000000)">
+            <g id="Contact-us">
+                <g transform="translate(16.000000, 1055.000000)">
+                    <g id="social-icons" transform="translate(0.000000, 85.000000)">
+                        <g id="icon-youtube-white" transform="translate(123.000000, 4.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="a"></g>
+                            <path d="M7.931,9.642 L7.93,4.025 L13.331,6.843 L7.931,9.642 Z M19.79,3.052 C19.79,3.052 19.594,1.675 18.995,1.068 C18.235,0.272 17.383,0.268 16.992,0.221 C14.195,0.019 10,0.019 10,0.019 L9.99,0.019 C9.99,0.019 5.794,0.019 2.997,0.221 C2.607,0.268 1.755,0.272 0.994,1.068 C0.394,1.675 0.2,3.052 0.2,3.052 C0.2,3.052 0,4.67 0,6.288 L0,7.805 C0,9.423 0.2,11.04 0.2,11.04 C0.2,11.04 0.395,12.418 0.994,13.024 C1.754,13.82 2.754,13.795 3.198,13.879 C4.798,14.032 9.995,14.079 9.995,14.079 C9.995,14.079 14.195,14.073 16.992,13.871 C17.382,13.824 18.235,13.821 18.995,13.024 C19.595,12.418 19.79,11.04 19.79,11.04 C19.79,11.04 19.99,9.423 19.99,7.805 L19.99,6.287 C19.99,4.67 19.79,3.052 19.79,3.052 L19.79,3.052 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

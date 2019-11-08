@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="388px" height="96px" viewBox="0 0 388 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>graph-blue-grey</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="27.2623698%" x2="50%" y2="95.0346147%" id="linearGradient-1">
+            <stop stop-color="#EBEBEB" offset="0%"></stop>
+            <stop stop-color="#EBEBEB" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="stats-section/desktop" transform="translate(-90.000000, -181.000000)">
+            <g id="stat-1">
+                <g transform="translate(87.000000, 170.000000)">
+                    <g id="graph-blue-grey" transform="translate(4.000000, 12.000000)">
+                        <polygon id="Path-3" fill="url(#linearGradient-1)" points="382 4 382 100 4 100 4 80.8107666 66.519084 73.12969 130.961832 68.3290171 194.442748 39.5249796 256 25.1229608 320.442748 13.6013458"></polygon>
+                        <polyline id="Path-2" stroke="#0F4BEB" stroke-width="2" points="4 81 67.4610883 73.0663421 131.194253 67.5362142 193.400491 39.0620816 256.698835 24.7011564 320.118123 14.28028 384 4"></polyline>
+                        <circle id="Oval" stroke="#0F4BEB" stroke-width="2" fill="#FFFFFF" cx="4" cy="80" r="4"></circle>
+                        <circle id="Oval-Copy-3" stroke="#0F4BEB" stroke-width="2" fill="#FFFFFF" cx="66" cy="73" r="4"></circle>
+                        <circle id="Oval-Copy-4" stroke="#0F4BEB" stroke-width="2" fill="#FFFFFF" cx="131" cy="68" r="4"></circle>
+                        <circle id="Oval-Copy-5" stroke="#0F4BEB" stroke-width="2" fill="#FFFFFF" cx="194" cy="39" r="4"></circle>
+                        <circle id="Oval-Copy-6" stroke="#0F4BEB" stroke-width="2" fill="#FFFFFF" cx="256" cy="25" r="4"></circle>
+                        <circle id="Oval-Copy-7" stroke="#0F4BEB" stroke-width="2" fill="#FFFFFF" cx="321" cy="13" r="4"></circle>
+                        <circle id="Oval-Copy-8" stroke="#0F4BEB" stroke-width="2" fill="#FFFFFF" cx="382" cy="4" r="4"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
