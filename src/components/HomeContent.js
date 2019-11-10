@@ -3,6 +3,8 @@ import { ReactComponent as  SVGbrain }  from '../svg/icon-brain-blue.svg';
 import { ReactComponent as  SVGtrophy }  from '../svg/icon-trophy-blue.svg';
 import { ReactComponent as SVGtraining  }  from '../svg/icon-online-training-blue.svg';
 import { ReactComponent as  SVGnetwork }  from '../svg/icon-network-blue.svg';
+import { ReactComponent as  SVGarrowright }  from '../svg/icon-arrow-right-blue.svg';
+
 
 class HomeContent extends React.Component{
     render(){
@@ -70,8 +72,17 @@ class HomeContent extends React.Component{
                                 </div>
                             
                             <div className="course-panel__content--links">
-                                <div>
+                                <div className="course-panel--link">
                                     <p>Master of Business Analytics</p>
+                                    <SVGarrowright className="icon icon--arrowright"/>
+                                </div>
+                                <div className="course-panel--link">
+                                    <p>Graduate Diploma in Business Analytics</p>
+                                    <SVGarrowright className="icon icon--arrowright"/>
+                                </div>
+                                <div className="course-panel--link">
+                                    <p>Graduate Certificate in Business Analytics</p>
+                                    <SVGarrowright className="icon icon--arrowright"/>
                                 </div>
                             </div>
                             </div>

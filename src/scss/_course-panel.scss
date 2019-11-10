@@ -26,7 +26,7 @@
        &:before {
            display: block;
            position: absolute;
-           left: 45.5%;
+           left: 45%;
            width: 0;
            height: 0;
            border-style: solid;
@@ -56,31 +56,57 @@
     &__content{
         display: flex;
         flex-direction: column;
+        margin-top: .5rem;
         @include breakpoint(m){
             flex-direction: row;
         }
         &--img{
             display: flex;
             justify-content: center;
-            align-items: center;
+            align-items: baseline;
             position: relative;
-            flex: 1;
+            flex: 25rem;
             img{
                 width: 100%;
             }
             p{
                 position: absolute;
                 z-index: 1;
-                margin: auto;
                 color: #fff;
+                margin-top: 37%;
+                font-size: 1.375rem;
               }
         }
 
         &--links{
             display: flex;
+            justify-content: center;
+            flex-direction: column;
             background: #fff;
             flex-basis: 51%;
+            padding: 1rem;
         }
 
+    }
+    &--link{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.5rem .5rem;
+        cursor: pointer;
+        transition: .5s;
+
+        &:hover{
+            background: #f1f1f1;
+        }
+        &:not(:last-child){
+            border-bottom: 1px solid #c4c4c4;
+        }
+        p{
+            color: #0f4beb;
+            font-size: 1.25rem;
+            margin: 0;
+            padding-right: .5rem;
+        }
     }
 }
