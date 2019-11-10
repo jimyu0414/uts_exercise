@@ -3,9 +3,17 @@
     .container{
         justify-content: space-between;
         align-items: center;
+        flex-direction: column;
+        @include breakpoint(m){
+            flex-direction: row;    
+        }
     }
     &__contact{
        display: flex;
+       margin: .5rem 0;
+       @include breakpoint(m){
+           margin: 0;
+       }
        &--phone{
         display: flex;
         align-items: center;

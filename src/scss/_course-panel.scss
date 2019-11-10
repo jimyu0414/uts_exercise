@@ -1,0 +1,86 @@
+.course-panel{
+    &__nav{
+    display: flex;
+    justify-content: space-between;
+    overflow-x: scroll;
+    &::-webkit-scrollbar { 
+        display: none; 
+    }
+    @include breakpoint(m){
+        overflow: unset;
+    }
+    li{
+        font-size: .875rem;
+        font-weight: 500;
+        padding: .875rem 2rem;
+        border: 2px solid;
+        cursor: pointer;
+        position: relative;
+        background: #323232;
+        color: #fff;
+      }
+      .course-active{
+        background: #fff;
+        color: #000;
+       &:after,
+       &:before {
+           display: block;
+           position: absolute;
+           left: 45.5%;
+           width: 0;
+           height: 0;
+           border-style: solid;
+           @include breakpoint(m){
+            content: '';
+           }
+       }
+     
+       &:after {
+         top: 100%;
+         border-color: transparent transparent transparent #fff;
+         border-width: 10px;
+         transform: rotate(90deg);
+     }
+     
+       &:before {
+         top: 100%;
+       border-color: transparent transparent transparent #000;
+       border-width: 12px;
+       transform: rotate(90deg);
+       left: 44%;
+       }
+      } 
+    }
+
+    
+    &__content{
+        display: flex;
+        flex-direction: column;
+        @include breakpoint(m){
+            flex-direction: row;
+        }
+        &--img{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            flex: 1;
+            img{
+                width: 100%;
+            }
+            p{
+                position: absolute;
+                z-index: 1;
+                margin: auto;
+                color: #fff;
+              }
+        }
+
+        &--links{
+            display: flex;
+            background: #fff;
+            flex-basis: 51%;
+        }
+
+    }
+}

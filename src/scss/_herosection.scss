@@ -1,0 +1,12 @@
+.herosection{
+    height: 25rem;
+    @include breakpoint(m){
+        height: 30rem;
+    }
+    &__uts{
+        background: url(../img/hero-image-uts.png);
+        background-position: 50% 16%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
