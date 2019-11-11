@@ -56,7 +56,7 @@
     &__content{
         display: flex;
         flex-direction: column;
-        margin-top: .5rem;
+        margin-top: 1.5rem;
         @include breakpoint(m){
             flex-direction: row;
         }
@@ -88,6 +88,14 @@
         }
 
     }
+
+    &__footer{
+        p{
+            font-weight: 500;
+            margin-top: 1.5rem;
+        }
+    }
+
     &--link{
         display: flex;
         justify-content: space-between;

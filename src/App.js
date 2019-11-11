@@ -37,6 +37,11 @@ class App extends React.Component{
         content = {textBlock}
         />
         <HomeContent />
+        <footer  className="footer">
+          <div className="container">
+          Footer Section
+          </div>
+        </footer>
       </div>
     );
   }
@@ -49,4 +54,4 @@ export default App;
 
 //layout got title texts
 
-//didn't setup variable for font-sizes and color pallete
+//didn't setup variable for font-sizes and color pa

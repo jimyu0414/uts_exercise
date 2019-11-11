@@ -1,0 +1,60 @@
+.uni-rank{
+   padding: 2rem 1rem;;
+    flex-wrap: wrap;
+    
+    &__header{
+        flex-basis: 100%;
+        text-align: center;
+        margin-bottom: 3rem;
+        h1{
+            font-size: 1.75rem;
+            font-weight: 500;
+        }
+    }
+    &__content{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        position: relative;
+        width: 100%;
+        text-align: center;
+        flex-direction: column;
+
+        @include breakpoint(m){
+            flex-direction: row;
+        }
+
+        &--list{
+           
+            margin: auto;
+            margin-bottom: 2.5rem;
+            @include breakpoint(m){
+                margin: unset;
+                margin-bottom: 2rem;
+            }
+            img{
+                width: 100%;  
+            }
+
+            p{
+                margin: auto;
+                line-height: 1.5rem;
+            }
+
+            &:not(:last-child){
+                @include breakpoint(m){
+                    margin-right: 1rem;
+                }
+            }
+        }
+    }
+    &__footer{
+        width: 100%;
+        text-align: center;
+    }
+    &--img-container{
+        border-bottom: 1px solid #c4c4c4;
+        margin-bottom: 1.5rem;
+        min-height: 8rem;
+    }
+}

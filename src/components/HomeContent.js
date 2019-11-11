@@ -5,11 +5,12 @@ import { ReactComponent as SVGtraining  }  from '../svg/icon-online-training-blu
 import { ReactComponent as  SVGnetwork }  from '../svg/icon-network-blue.svg';
 import { ReactComponent as  SVGarrowright }  from '../svg/icon-arrow-right-blue.svg';
 
-
+/* This component will contain all static contents of home page */
 class HomeContent extends React.Component{
     render(){
         return(
-            <div className="page__row-info">
+            <div className="all-consisted-contents">
+                <div className="page__row page__row-info">
                <div className="container">
                    <div className="page__onlineCard">
                     <div className="page__onlineCard--title">
@@ -86,10 +87,54 @@ class HomeContent extends React.Component{
                                 </div>
                             </div>
                             </div>
+                            <div className="course-panel__footer">
+                                <p>
+                                *Source: QS Top Universities
+                                </p>
+                            </div>
                         </div>
                    </div>
                </div>
             </div>
+            <div className="page__row page__row-uni-rank">
+                <div className="container uni-rank">
+                    <div className="uni-rank__header">
+                        <h1>UTS is a world-class university</h1>
+                    </div>
+                    <div className="uni-rank__content">
+                        <div className="uni-rank__content--list">
+                            <div className="uni-rank--img-container">
+                            <img src={require('../img/ranking.png')} />
+                            </div>
+                            <p>
+                            UTS is ranked at 150 Top University <br /> in the world
+                            </p>
+                        </div>
+                        <div className="uni-rank__content--list">
+                        <div className="uni-rank--img-container">
+                            <img src={require('../img/grade.png')} />
+                            </div>                            <p>
+                            Up 5 positions from 2018
+                            </p>
+                        </div>
+                        <div className="uni-rank__content--list">
+                        <div className="uni-rank--img-container">
+                            <img src={require('../img/stars.png')} />
+                            </div>                           
+                             <p>
+                            Across 7 categories
+                            </p>
+                        </div>
+                    </div>
+                    <div className="uni-rank__footer">
+                        <p>
+                        *Source: <a href="#">QS Top Universities</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            </div>
+            
         );
     }
 }
