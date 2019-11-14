@@ -1,4 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was a sample development setup (with sass/svg/img folder structure)  bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+when you start the App, it will look like the same of [DEMO](https://uts-exercise.herokuapp.com/).
 
 ## Available Scripts
 
